@@ -1,5 +1,9 @@
 # Minimal @11ty/eleventy starter
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/2972f222-5bf8-422c-aa75-15d64d235522/deploy-status)](https://app.netlify.com/sites/minimal-eleventy-starter/deploys)
+
+https://minimal-eleventy-starter.netlify.app/
+
 This starter boilerplate was built to allow you to start a new eleventy project in seconds. It doesn't have any prebuilt styles, so you don't need to delete a bunch of things to make it work for you.
 
 This starter is a bare minimum to start and can be easily modified.

@@ -28,3 +28,5 @@
 #
 User-agent: *
 Disallow: /
+
+Sitemap: https://minimal-eleventy-starter.netlify.app/sitemap.xml
