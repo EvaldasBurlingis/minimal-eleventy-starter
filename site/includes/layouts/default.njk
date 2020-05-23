@@ -5,14 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page_title }}</title>
     <meta name="description" content="{{ meta_description }}">
-
-    {# if your site's entire CSS comes in under 14kb, you may want to inline in the head #}
-    {# include main.css if in development mode #}
+    
     <link rel="stylesheet" href="/css/main.css">
-
-
-    {# include scripts #}
-    <script src="/js/main.js" defer></script>
 
     {# lastly include favicon, fonts, etc #}
     <link rel="icon" type="image/png" href="{{ site.images.favicon }}">
@@ -29,6 +23,8 @@
         {# include content #}
         {{ content | safe }}
     </main>
-
+    
+    {# include scripts #}
+    <script src="/js/main.js" defer></script>
 </body>
 </html>
